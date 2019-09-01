@@ -13,6 +13,7 @@ A collection of links and concise write-ups on small things I learn day to day a
 - [Conferences/meetups](https://crossweb.pl/wydarzenia/krakow/)
 
 ## Day 2
+
 - [Kurs Python 3 [#1] Instalacja środowiska, PyCharm](https://www.youtube.com/watch?v=NN5Pht2FRWs)
 - [POIT 009: Programowanie frontendu aplikacji webowych - Krzysztof Kempiński](https://www.youtube.com/watch?v=vtn7UhAJrDU)
 - [POIT 010: Źródła wiedzy i nowych umiejętności w IT](https://www.youtube.com/watch?v=r5xV34C5Bek&list=WL&index=3&t=0s)
