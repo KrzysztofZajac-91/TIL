@@ -10,8 +10,6 @@ A collection of links and concise write-ups on small things I learn day to day a
 - [What is Git and Github? Source Control —Coding For Beginners](https://www.youtube.com/watch?v=3bchX_7ANQc)
 - [How to create a repository on github](https://help.github.com/en/articles/create-a-repo)
 
-- [Conferences/meetups](https://crossweb.pl/wydarzenia/krakow/)
-
 ## Day 2
 
 - [Kurs Python 3 [#1] Instalacja środowiska, PyCharm](https://www.youtube.com/watch?v=NN5Pht2FRWs)
