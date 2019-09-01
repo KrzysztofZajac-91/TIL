@@ -18,6 +18,7 @@ A collection of links and concise write-ups on small things I learn day to day a
 - [POIT 009: Programowanie frontendu aplikacji webowych - Krzysztof Kempiński](https://www.youtube.com/watch?v=vtn7UhAJrDU)
 - [POIT 010: Źródła wiedzy i nowych umiejętności w IT](https://www.youtube.com/watch?v=r5xV34C5Bek&list=WL&index=3&t=0s)
 - [POIT 004: Scrum w projektach informatycznych](https://www.youtube.com/watch?v=m0LApgEcDrg&list=WL&index=3)
+- [Praktyczny kurs Git - #1/12 Czym jest Git?](https://www.youtube.com/watch?v=D6EI7EbEN4Q&t=19s)
 
 
 
