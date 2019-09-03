@@ -17,3 +17,9 @@ A collection of links and concise write-ups on small things I learn day to day a
 - [POIT 010: Źródła wiedzy i nowych umiejętności w IT](https://www.youtube.com/watch?v=r5xV34C5Bek&list=WL&index=3&t=0s)
 - [POIT 004: Scrum w projektach informatycznych](https://www.youtube.com/watch?v=m0LApgEcDrg&list=WL&index=3)
 - [Praktyczny kurs Git - #1/12 Czym jest Git?](https://www.youtube.com/watch?v=D6EI7EbEN4Q&t=19s)
+
+## Day 3
+
+- [Czym jest PWA? [Progressive web app]](https://www.youtube.com/watch?v=c17A42sIRRg&fbclid=IwAR05d8CigXYEfQZSvFFaGewwk-Eeyqtvau4G5gNmXH3YqYa7d06c4W2i4C8)
+- [What is the ionic framework?](https://www.youtube.com/watch?v=-elYdVXEzVw&fbclid=IwAR2aOfSJpH3CytodfF4g-LASY9E0GgnuDn4scXlRGfMFUOkukvJRfbl4Lho)
+- [What is Ionic?](https://www.youtube.com/watch?v=DpR0M_Mo6rU&fbclid=IwAR3zJv8jo_DMU3M3qWXMV1qgxhyoP8QVgXZVabRk3QByliYMCPKhWmoY4Zc)
