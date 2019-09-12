@@ -1,28 +1,28 @@
-a = "1) Stopnie Celsjusza na Fahrenheita"
-b = "2) Stopnie Fahrenheita na Celsjusza"
-c = "Podaj wartość:"
+textCtoF = "1) Stopnie Celsjusza na Fahrenheita"
+textFtoC = "2) Stopnie Fahrenheita na Celsjusza"
+order = "Podaj wartość:"
 
 print("Program do konwersji temperatury")
 print("Jaką konwersje chcesz wykonać?")
-print(a)
-print(b)
+print(textCtoF)
+print(textFtoC)
 print("Wybierz:")
 
-x = input()
-x = int(x)
+choice = input()
+choice = int(choice)
 
-if x == 1:
-    print(a[3:])
-    print(c)
-    y = input()
-    y = float(y)
-    result1 = y * 1.8 + 32
-    print(y, "°C to", result1, "°F")
+if choice == 1:
+    print(textCtoF[3:])
+    print(order)
+    number1= input()
+    number1= float(number1)
+    result1 = number1* 1.8 + 32
+    print(number1, "°C to", result1, "°F")
 
-if x == 2:
-    print(b[3:])
-    print(c)
-    z = input()
-    z = float(z)
-    result2 = (z - 32) / 1.8
-    print(z, "°F to", result2, "°C")
+if choice == 2:
+    print(textFtoC[3:])
+    print(order)
+    number2= input()
+    number2= float(number2)
+    result2 = (number2 - 32) / 1.8
+    print(number2, "°F to", result2, "°C")
