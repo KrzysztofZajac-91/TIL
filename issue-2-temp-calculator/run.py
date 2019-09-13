@@ -13,10 +13,10 @@ if choice == 1:
     print(textCtoF[3:])
     number1 = float(input(order))
     result1 = number1 * 1.8 + 32
-    print(number1, "°C to", result1, "°F")
+    print("{}°C to {}°F".format(number1, result1))
 
 if choice == 2:
     print(textFtoC[3:])
     number2 = float(input(order))
     result2 = (number2 - 32) / 1.8
-    print(number2, "°F to", result2, "°C")
+    print("{}°F to {}°C".format(number2, result2))
