@@ -23,3 +23,7 @@ A collection of links and concise write-ups on small things I learn day to day a
 - [Czym jest PWA? [Progressive web app]](https://www.youtube.com/watch?v=c17A42sIRRg&fbclid=IwAR05d8CigXYEfQZSvFFaGewwk-Eeyqtvau4G5gNmXH3YqYa7d06c4W2i4C8)
 - [What is the ionic framework?](https://www.youtube.com/watch?v=-elYdVXEzVw&fbclid=IwAR2aOfSJpH3CytodfF4g-LASY9E0GgnuDn4scXlRGfMFUOkukvJRfbl4Lho)
 - [What is Ionic?](https://www.youtube.com/watch?v=DpR0M_Mo6rU&fbclid=IwAR3zJv8jo_DMU3M3qWXMV1qgxhyoP8QVgXZVabRk3QByliYMCPKhWmoY4Zc)
+
+## Day 4
+Git course by Maciej Aniserowicz
+- [Modules 1 - 4](https://edu.devstyle.pl/git/)
