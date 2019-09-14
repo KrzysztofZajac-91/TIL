@@ -27,3 +27,7 @@ A collection of links and concise write-ups on small things I learn day to day a
 ## Day 4
 Git course by Maciej Aniserowicz
 - [Modules 1 - 4](https://edu.devstyle.pl/git/)
+
+## Day 5
+- [Podstawy pracy z Wierszem poleceń - Windows](https://www.youtube.com/watch?v=gohuR6-wT0Y)
+- [Jak nazywać zmienne?](http://mrowqa.pl/wpisy/jak-nazywac-zmienne/)
