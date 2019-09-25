@@ -7,3 +7,12 @@ def conversion_selection():
     print("3) mile/h na km/h")
     print("4) km/h na mile/h")
     print("5) km/h na procent prędkości światła w próźni")
+
+
+while True:
+    print("Jaką konwersje chcesz wykonać?")
+    conversion_selection()
+
+    closing_decision = input("Czy zakończyć program ([T]ak/[N]ie)? ")
+    if closing_decision == "T" or closing_decision == "t" or closing_decision == "Tak" or closing_decision == "tak":
+        break
