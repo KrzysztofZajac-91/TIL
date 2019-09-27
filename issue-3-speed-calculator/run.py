@@ -15,6 +15,11 @@ while True:
 
     try:
         conversion_choice = int(input("Wybierz: "))
+
+        if conversion_choice > 5 or conversion_choice < 1:
+            print("Nieprawidłowa wartość")
+            continue
+
         input_speed = float(input("Podaj wartość: "))
 
         if conversion_choice == 1:
@@ -37,9 +42,9 @@ while True:
             conversion_result = input_speed * 100 / 1079252849
             print("{} km/h to {}% prędkości światła w próźni".format(input_speed, conversion_result))
 
+        closing_decision = input("Czy zakończyć program ([T]ak/[N]ie)? ")
+        if closing_decision == "T" or closing_decision == "t" or closing_decision == "Tak" or closing_decision == "tak":
+            break
+
     except ValueError:
         print("Nieprawidłowa wartość")
-
-    closing_decision = input("Czy zakończyć program ([T]ak/[N]ie)? ")
-    if closing_decision == "T" or closing_decision == "t" or closing_decision == "Tak" or closing_decision == "tak":
-        break
