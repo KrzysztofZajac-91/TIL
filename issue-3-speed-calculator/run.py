@@ -48,3 +48,6 @@ while True:
 
     except ValueError:
         print("Nieprawidłowa wartość")
+
+    except():
+        print("Nieznany błąd")
