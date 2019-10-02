@@ -34,3 +34,7 @@ Git course by Maciej Aniserowicz
 
 ## Step 6
 [Kurs Pythona](https://www.youtube.com/watch?v=NN5Pht2FRWs&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=1)
+
+## Step 7
+Git course by Maciej Aniserowicz
+- [Module 5](https://edu.devstyle.pl/git/)
