@@ -37,4 +37,4 @@ Git course by Maciej Aniserowicz
 
 ## Step 7
 Git course by Maciej Aniserowicz
-- [Modules 5 - 6.2](https://edu.devstyle.pl/git/)
+- [Modules 5 - 6.3](https://edu.devstyle.pl/git/)
