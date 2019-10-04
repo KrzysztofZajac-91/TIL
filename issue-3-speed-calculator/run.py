@@ -19,9 +19,6 @@ while True:
     except ValueError:
         print("Nieprawidłowa wartość")
         continue
-    except():
-        print("Nieznany błąd")
-        continue
 
     if conversion_choice == 1:
         conversion_result = input_speed * 3.6
