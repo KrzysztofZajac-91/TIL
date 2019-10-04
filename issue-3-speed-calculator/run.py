@@ -6,6 +6,28 @@ def conversion_list():
     print("5) km/h na procent prędkości światła w próźni")
 
 
+def conversion(conversion_choice, input_speed):
+    if conversion_choice == 1:
+        conversion_result = input_speed * 3.6
+        return print("{} m/s to {} km/h".format(input_speed, conversion_result))
+
+    elif conversion_choice == 2:
+        conversion_result = input_speed / 3.6
+        return print("{} km/h to {} m/s".format(input_speed, conversion_result))
+
+    elif conversion_choice == 3:
+        conversion_result = input_speed * 1.609344
+        return print("{} mile/h to {} km/h".format(input_speed, conversion_result))
+
+    elif conversion_choice == 4:
+        conversion_result = input_speed / 1.609344
+        return print("{} km/h to {} mile/h".format(input_speed, conversion_result))
+
+    elif conversion_choice == 5:
+        conversion_result = input_speed * 100 / 1079252849
+        return print("{} km/h to {}% prędkości światła w próźni".format(input_speed, conversion_result))
+
+
 print("Program do konwersji prędkości w różnych jednostkach.")
 
 
@@ -14,33 +36,8 @@ while True:
     conversion_list()
 
     try:
-        conversion_choice = int(input("Wybierz: "))
-        input_speed = float(input("Podaj wartość: "))
+        conversion(int(input("Wybierz: ")), float(input("Podaj wartość: ")))
     except ValueError:
-        print("Nieprawidłowa wartość")
-        continue
-
-    if conversion_choice == 1:
-        conversion_result = input_speed * 3.6
-        print("{} m/s to {} km/h".format(input_speed, conversion_result))
-
-    elif conversion_choice == 2:
-        conversion_result = input_speed / 3.6
-        print("{} km/h to {} m/s".format(input_speed, conversion_result))
-
-    elif conversion_choice == 3:
-        conversion_result = input_speed * 1.609344
-        print("{} mile/h to {} km/h".format(input_speed, conversion_result))
-
-    elif conversion_choice == 4:
-        conversion_result = input_speed / 1.609344
-        print("{} km/h to {} mile/h".format(input_speed, conversion_result))
-
-    elif conversion_choice == 5:
-        conversion_result = input_speed * 100 / 1079252849
-        print("{} km/h to {}% prędkości światła w próźni".format(input_speed, conversion_result))
-
-    else:
         print("Nieprawidłowa wartość")
         continue
 
