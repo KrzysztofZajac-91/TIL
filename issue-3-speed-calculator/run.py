@@ -1,3 +1,6 @@
+from sys import exit
+
+
 class WrongChoiceException(Exception):
     pass
 
@@ -60,6 +63,13 @@ while True:
         print("Nieprawidłowa wartość. Wybierz spośród poniższych opcji.")
         continue
 
-    closing_decision = input("Czy zakończyć program ([T]ak/[N]ie)? ")
-    if closing_decision == "T" or closing_decision == "t" or closing_decision == "Tak" or closing_decision == "tak":
-        break
+    while True:
+        closing_decision = input("Czy zakończyć program ([T]ak/[N]ie)? ")
+        if closing_decision == "T" or closing_decision == "t" or closing_decision == "Tak" or closing_decision == "tak":
+            exit(0)
+        elif closing_decision == "N" or closing_decision == "n" or closing_decision == "Nie" or \
+                closing_decision == "nie":
+            break
+        else:
+            print("Wpisz T lub N")
+            pass
