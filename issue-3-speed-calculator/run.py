@@ -1,3 +1,19 @@
+class WrongChoiceException(Exception):
+    pass
+
+
+def conversion_selection():
+    entered_choice = int(input("Wybierz: "))
+    if entered_choice > 5 or entered_choice < 1:
+        raise WrongChoiceException
+    return entered_choice
+
+
+def enter_speed():
+    entered_speed = float(input("Podaj wartość: "))
+    return entered_speed
+
+
 def conversion_list():
     print("1) m/s na km/h")
     print("2) km/h na m/s")
@@ -36,9 +52,12 @@ while True:
     conversion_list()
 
     try:
-        conversion(int(input("Wybierz: ")), float(input("Podaj wartość: ")))
+        conversion(conversion_selection(), enter_speed())
     except ValueError:
         print("Nieprawidłowa wartość")
+        continue
+    except WrongChoiceException:
+        print("Nieprawidłowa wartość. Wybierz spośród poniższych opcji.")
         continue
 
     closing_decision = input("Czy zakończyć program ([T]ak/[N]ie)? ")
