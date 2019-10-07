@@ -38,3 +38,6 @@ Git course by Maciej Aniserowicz
 ## Step 7
 Git course by Maciej Aniserowicz
 - [Modules 5 - 7.4](https://edu.devstyle.pl/git/)
+
+## Step 8
+[Jak przywrócić usunięty branch](https://poznajgita.pl/jak-przywrocic-usuniety-branch/)
