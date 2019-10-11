@@ -41,3 +41,5 @@ Git course by Maciej Aniserowicz
 
 ## Step 8
 - [Jak przywrócić usunięty branch](https://poznajgita.pl/jak-przywrocic-usuniety-branch/)
+- [hello roman #10 - GIT](https://www.youtube.com/watch?v=BHAYUeI1upA&list=PLdvctdex2nmfPL8QzWuS92vd-Fn0vqCED&index=15&t=133s)
+- [GIT, Pytania I Odpowiedzi, część 1](https://www.youtube.com/watch?v=GKIxUcwW8PU&list=PLdvctdex2nmfPL8QzWuS92vd-Fn0vqCED&index=17&t=0s)
