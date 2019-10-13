@@ -57,10 +57,10 @@ while True:
         continue
     while True:
         closing_decision = input("Czy zakończyć program ([T]ak/[N]ie)? ")
-        if closing_decision == "T" or closing_decision == "t" or closing_decision == "Tak" or closing_decision == "tak":
+        closing_decision = closing_decision and closing_decision.lower()
+        if closing_decision == "t" or closing_decision == "tak":
             exit(0)
-        elif closing_decision == "N" or closing_decision == "n" or closing_decision == "Nie" or \
-                closing_decision == "nie":
+        elif closing_decision == "n" or closing_decision == "nie":
             break
         else:
             print("Wpisz T lub N")
