@@ -72,4 +72,3 @@ while True:
             break
         else:
             print("Wpisz T lub N")
-            pass
