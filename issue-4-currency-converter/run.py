@@ -1,0 +1,5 @@
+print("Program do konwersji walut.")
+print("Dostępne waluty: PLN, EUR, USD, CHF, CNY")
+choice_first_currency = input("Wybierz pierwszą walutę: ")
+choice_second_currency = input("Wybierz drugą walutę: ")
+initial_amount = input("Podaj kwotę w walucie {}: ".format(choice_first_currency))
